@@ -1,0 +1,31 @@
+.featured{
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+.featuredImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.featuredItem{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 200px;
+}
+
+.featuredTitles{
+    position: absolute;
+    top: 20px;
+    font-size: small;
+    left: 20px;
+}
+.homeTitle{
+   width: 1160px;
+   font-size: 20px; 
+}
